@@ -23,20 +23,20 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     packages=["pygost", "pygost.asn1schemas"],
-    package_data={
-        "pygost": ["stubs/**/*.pyi"],
-    },
-    data_files=(
-        ('', (
-            "AUTHORS",
-            "COPYING",
-            "FAQ",
-            "INSTALL",
-            "NEWS",
-            "README",
-            "THANKS",
-            "VERSION",
-        )),
-    ),
+    # package_data={
+    #     "pygost": ["stubs/**/*.pyi"],
+    # },
+    # data_files=(
+    #     ('', (
+    #         "AUTHORS",
+    #         "COPYING",
+    #         "FAQ",
+    #         "INSTALL",
+    #         "NEWS",
+    #         "README",
+    #         "THANKS",
+    #         "VERSION",
+    #     )),
+    # ),
     tests_require=["pyderasn~=4.4"],
 )
